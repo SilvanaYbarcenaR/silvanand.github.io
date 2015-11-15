@@ -1,0 +1,135 @@
+body{
+	background:url(http://k36.kn3.net/4E125E450.jpg) -240px 0;
+	background-size: 120% 100%;
+	background-position: top center;
+}
+.main-menu{
+	padding:80px 0 40px 0;
+}
+h1, h2, h3, ul{
+	font-family: Oswald, Arial, Sans Serif;
+}
+h1, h2{
+	text-shadow: 3px 3px 5px black;
+	background-color: #333;
+	opacity:0.8;*/
+}
+.list-nav li{
+	display: inline-block;
+}
+.list-nav a{
+	display: block;
+	padding:5px 30px;
+	color:#555;
+	transition: all 0.5s;
+}
+.list-nav a:hover{
+	text-decoration: none;
+	background: #BFFF00;
+	-webkit-filter: drop-shadow(0px 0px 5px #585858);
+	transform: scale(1.15);
+}
+.header-content{
+	background:url(https://k10.kn3.net/E92B3DDD7.jpg);
+	background-size;100%;
+	background-position: center -400px;
+	color:#FFF;
+	height: 380px;
+	margin: auto 0 ;
+	padding-top: 7%;
+	-webkit-filter: drop-shadow(0px 0px 20px black);
+}
+.header-content img{
+	-webkit-filter: grayscale(1);
+}
+.biography{
+	font-size: 16px;
+	font-family: Maiandra GD, Arial, Sans Serif;
+}
+.about-me .biography img{
+	float:left;
+	min-width: 18%;
+	height:160px;	
+	border-radius: 5%;
+	box-shadow: #5E610B -8px 8px 10px;
+	margin-right: 40px;
+	margin-bottom: 27px;
+	
+}
+.about-me{
+	background:url(../images/tile1.png);
+	padding-top: 30px; padding-bottom: 60px;
+	box-shadow: inset 0px 0px 40px #2E2E2E;
+}
+.about-me p{
+	padding-top:20px;
+}
+
+.favorites{
+	height: 280px;
+	overflow-y: scroll;
+}
+.favorites img{
+	width: 13%;
+	box-shadow: #BFFF00 0 0 15px 10px;
+	margin:0 25px;
+	-webkit-filter: grayscale(1);
+}
+.favorites h3{
+color: white;	
+padding-bottom: 35px;
+text-shadow: 3px 3px 2px black;
+}
+.contact{
+background:url(../images/tile2.png);
+box-shadow: inset 0px 0px 40px #2E2E2E;
+padding-bottom: 40px;
+}
+.contact img{
+	margin-right: 30px;
+	margin-top:15px;
+	width:12%;
+}
+.contact a:last-child img{
+	margin-right: 0;
+	}
+.contact h3{
+color: #333;	
+padding-top: 25px;
+}
+.container p{
+	webkit­shape­inside: rectangle(0,0,100%,100%,100%,100%);
+}
+@media only screen and (max-width: 650px){
+	.about-me p{
+	font-size: 12px;
+	}
+	.list-nav li:first-child a{
+		text-shadow: 1px 1px 0.5px white;
+	}
+}
+@media only screen and (max-width: 382px){
+	.about-me .biography img{
+	float:right;
+	margin-left:200px;
+	}
+}
+@media only screen and (max-width: 293px){
+	.about-me .biography img{
+		float:none;
+		display:block;
+ 		margin-left: auto;
+  		margin-right: auto;
+	}
+}
+@media only screen and (max-width: 475px){
+	.favorites img{
+	width: 40%;
+	box-shadow: #BFFF00 0 0 15px 10px;
+	margin-bottom:20px;
+	}
+	.contact img{
+		width: 15%;
+		margin-right: 20px;
+}
+}
